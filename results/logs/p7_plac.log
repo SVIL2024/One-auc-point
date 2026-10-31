@@ -1,0 +1,7 @@
+device cuda | train 4000 | test 290 videos | z=mlocal placebo=True
+E:\program\CAFE\cafe_probe7.py:161: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\torch\csrc\utils\tensor_new.cpp:281.)
+  Zt = torch.tensor(Z).to(device) if Z is not None else None
+[ucf] gamma 1.00 seed 0 | theta 0.8356 A 0.9580 B 0.6890 B|z 0.6480 C 0.6250 | corr 0.167 within_mean 0.6725
+[ucf] gamma 1.00 seed 1 | theta 0.8362 A 0.9582 B 0.6888 B|z 0.6483 C 0.6264 | corr 0.167 within_mean 0.6720
+[ucf] gamma 1.00 seed 2 | theta 0.8369 A 0.9586 B 0.6894 B|z 0.6476 C 0.6275 | corr 0.172 within_mean 0.6738
+elapsed 68.0 s

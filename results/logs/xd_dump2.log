@@ -1,0 +1,156 @@
+E:\program/DSANet/src\clip\clip.py:6: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging
+args: {'visual_length': 256, 'train_list': 'list/xd_CLIP_rgb.csv', 'test_list': 'E:/program/DSANet\\list\\xd_CLIP_rgbtest.csv', 'gt_path': 'E:/program/DSANet\\list/gt.npy', 'gt_segment_path': 'E:/program/DSANet\\list/gt_segment.npy', 'gt_label_path': 'E:/program/DSANet\\list/gt_label.npy'}
+AUC1:  0.9436976889895087  AP1:  0.8201894017820341
+AUC2:  0.9436976888568175  AP2: 0.8201894014489048
+mAP@0.1 =0.00%
+mAP@0.2 =0.00%
+mAP@0.3 =0.00%
+mAP@0.4 =0.00%
+mAP@0.5 =0.00%
+average MAP: 0.00
+[xd_base_s555] roc1 0.9437 ap1 0.8202 | stack 800 shapes [(1072, 7), (1104, 7), (4752, 7)]
+E:\program/DSANet/src\clip\clip.py:6: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging
+args: {'visual_length': 256, 'train_list': 'list/xd_CLIP_rgb.csv', 'test_list': 'E:/program/DSANet\\list\\xd_CLIP_rgbtest.csv', 'gt_path': 'E:/program/DSANet\\list/gt.npy', 'gt_segment_path': 'E:/program/DSANet\\list/gt_segment.npy', 'gt_label_path': 'E:/program/DSANet\\list/gt_label.npy'}
+AUC1:  0.9436976889895087  AP1:  0.8201894017820341
+AUC2:  0.9436976888568175  AP2: 0.8201894014489048
+mAP@0.1 =0.00%
+mAP@0.2 =0.00%
+mAP@0.3 =0.00%
+mAP@0.4 =0.00%
+mAP@0.5 =0.00%
+average MAP: 0.00
+[xd_base_s555] roc1 0.9437 ap1 0.8202 | stack 800 shapes [(1072, 7), (1104, 7), (4752, 7)]
+E:\program/DSANet/src\clip\clip.py:6: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging
+args: {'visual_length': 256, 'train_list': 'list/xd_CLIP_rgb.csv', 'test_list': 'E:/program/DSANet\\list\\xd_CLIP_rgbtest.csv', 'gt_path': 'E:/program/DSANet\\list/gt.npy', 'gt_segment_path': 'E:/program/DSANet\\list/gt_segment.npy', 'gt_label_path': 'E:/program/DSANet\\list/gt_label.npy'}
+AUC1:  0.9436976889895087  AP1:  0.8201894017820341
+AUC2:  0.9436976888568175  AP2: 0.8201894014489048
+mAP@0.1 =0.00%
+mAP@0.2 =0.00%
+mAP@0.3 =0.00%
+mAP@0.4 =0.00%
+mAP@0.5 =0.00%
+average MAP: 0.00
+[xd_base_s555] roc1 0.9437 ap1 0.8202 | stack 800 shapes [(1072, 7), (1104, 7), (4752, 7)]
+E:\program/DSANet/src\clip\clip.py:6: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging
+args: {'visual_length': 256, 'train_list': 'list/xd_CLIP_rgb.csv', 'test_list': 'E:/program/DSANet\\list\\xd_CLIP_rgbtest.csv', 'gt_path': 'E:/program/DSANet\\list/gt.npy', 'gt_segment_path': 'E:/program/DSANet\\list/gt_segment.npy', 'gt_label_path': 'E:/program/DSANet\\list/gt_label.npy'}
+  WARN missing ['motion_beta']
+AUC1:  0.953569249841987  AP1:  0.8658283263772495
+AUC2:  0.9535692500410239  AP2: 0.8658283263772495
+mAP@0.1 =0.00%
+mAP@0.2 =0.00%
+mAP@0.3 =0.00%
+mAP@0.4 =0.00%
+mAP@0.5 =0.00%
+average MAP: 0.00
+[xd_base_s234] roc1 0.9536 ap1 0.8658 | stack 800 shapes [(1072, 7), (1104, 7), (4752, 7)]
+E:\program/DSANet/src\clip\clip.py:6: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging
+args: {'visual_length': 256, 'train_list': 'list/xd_CLIP_rgb.csv', 'test_list': 'E:/program/DSANet\\list\\xd_CLIP_rgbtest.csv', 'gt_path': 'E:/program/DSANet\\list/gt.npy', 'gt_segment_path': 'E:/program/DSANet\\list/gt_segment.npy', 'gt_label_path': 'E:/program/DSANet\\list/gt_label.npy'}
+  WARN missing ['motion_beta']
+AUC1:  0.953569249841987  AP1:  0.8658283263772495
+AUC2:  0.9535692500410239  AP2: 0.8658283263772495
+mAP@0.1 =0.00%
+mAP@0.2 =0.00%
+mAP@0.3 =0.00%
+mAP@0.4 =0.00%
+mAP@0.5 =0.00%
+average MAP: 0.00
+[xd_base_s234] roc1 0.9536 ap1 0.8658 | stack 800 shapes [(1072, 7), (1104, 7), (4752, 7)]
+E:\program/DSANet/src\clip\clip.py:6: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging
+args: {'visual_length': 256, 'train_list': 'list/xd_CLIP_rgb.csv', 'test_list': 'E:/program/DSANet\\list\\xd_CLIP_rgbtest.csv', 'gt_path': 'E:/program/DSANet\\list/gt.npy', 'gt_segment_path': 'E:/program/DSANet\\list/gt_segment.npy', 'gt_label_path': 'E:/program/DSANet\\list/gt_label.npy'}
+  WARN missing ['motion_beta']
+Traceback (most recent call last):
+  File "E:\program\CAFE\dsanet_xd_dump.py", line 123, in <module>
+    main()
+  File "E:\program\CAFE\dsanet_xd_dump.py", line 99, in main
+    roc1, ap1 = xd_test.test(model, loader, oargs.visual_length,
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\program/DSANet/src\xd_test.py", line 94, in test
+    ROC1 = roc_auc_score(gt, np.repeat(ap1, 16))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\program files\python312\Lib\site-packages\sklearn\utils\_param_validation.py", line 218, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\program files\python312\Lib\site-packages\sklearn\metrics\_ranking.py", line 683, in roc_auc_score
+    y_score = check_array(y_score, ensure_2d=False)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\program files\python312\Lib\site-packages\sklearn\utils\validation.py", line 1074, in check_array
+    _assert_all_finite(
+  File "c:\program files\python312\Lib\site-packages\sklearn\utils\validation.py", line 133, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "c:\program files\python312\Lib\site-packages\sklearn\utils\validation.py", line 182, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input contains NaN.
+E:\program/DSANet/src\clip\clip.py:6: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging
+args: {'visual_length': 256, 'train_list': 'list/xd_CLIP_rgb.csv', 'test_list': 'E:/program/DSANet\\list\\xd_CLIP_rgbtest.csv', 'gt_path': 'E:/program/DSANet\\list/gt.npy', 'gt_segment_path': 'E:/program/DSANet\\list/gt_segment.npy', 'gt_label_path': 'E:/program/DSANet\\list/gt_label.npy'}
+AUC1:  0.9367996554133295  AP1:  0.8112906859542136
+AUC2:  0.9367996551728265  AP2: 0.8112906853013035
+mAP@0.1 =0.00%
+mAP@0.2 =0.00%
+mAP@0.3 =0.00%
+mAP@0.4 =0.00%
+mAP@0.5 =0.00%
+average MAP: 0.00
+[xd_motion3_s789] roc1 0.9368 ap1 0.8113 | stack 800 shapes [(1072, 7), (1104, 7), (4752, 7)]
+E:\program/DSANet/src\clip\clip.py:6: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging
+args: {'visual_length': 256, 'train_list': 'list/xd_CLIP_rgb.csv', 'test_list': 'E:/program/DSANet\\list\\xd_CLIP_rgbtest.csv', 'gt_path': 'E:/program/DSANet\\list/gt.npy', 'gt_segment_path': 'E:/program/DSANet\\list/gt_segment.npy', 'gt_label_path': 'E:/program/DSANet\\list/gt_label.npy'}
+AUC1:  0.9367996554133295  AP1:  0.8112906859542136
+AUC2:  0.9367996551728265  AP2: 0.8112906853013035
+mAP@0.1 =0.00%
+mAP@0.2 =0.00%
+mAP@0.3 =0.00%
+mAP@0.4 =0.00%
+mAP@0.5 =0.00%
+average MAP: 0.00
+[xd_motion3_s789] roc1 0.9368 ap1 0.8113 | stack 800 shapes [(1072, 7), (1104, 7), (4752, 7)]
+E:\program/DSANet/src\clip\clip.py:6: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging
+args: {'visual_length': 256, 'train_list': 'list/xd_CLIP_rgb.csv', 'test_list': 'E:/program/DSANet\\list\\xd_CLIP_rgbtest.csv', 'gt_path': 'E:/program/DSANet\\list/gt.npy', 'gt_segment_path': 'E:/program/DSANet\\list/gt_segment.npy', 'gt_label_path': 'E:/program/DSANet\\list/gt_label.npy'}
+Traceback (most recent call last):
+  File "E:\program\CAFE\dsanet_xd_dump.py", line 123, in <module>
+    main()
+  File "E:\program\CAFE\dsanet_xd_dump.py", line 99, in main
+    roc1, ap1 = xd_test.test(model, loader, oargs.visual_length,
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\program/DSANet/src\xd_test.py", line 68, in test
+    _, logits1, logits2, _, _, _ = model(visual, padding_mask, prompt_text, lengths, DNP_use)
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\program files\python312\Lib\site-packages\torch\nn\modules\module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\program files\python312\Lib\site-packages\torch\nn\modules\module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\program/DSANet/src\model.py", line 635, in forward
+    text_features_ori = self.get_text_features(text)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\program/DSANet/src\model.py", line 617, in get_text_features
+    text_features = self.clip_adapter.encode_text(tokens)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\program/DSANet/src\model.py", line 150, in encode_text
+    x = self.clipmodel.transformer.resblocks[i](x)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\program files\python312\Lib\site-packages\torch\nn\modules\module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\program files\python312\Lib\site-packages\torch\nn\modules\module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\program/DSANet/src\clip\model.py", line 190, in forward
+    x = x + self.attention(self.ln_1(x))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\program/DSANet/src\clip\model.py", line 186, in attention
+    self.attn_mask = self.attn_mask.to(dtype=x.dtype, device=x.device) if self.attn_mask is not None else None
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: CUDA error: an illegal memory access was encountered
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+

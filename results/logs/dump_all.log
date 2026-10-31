@@ -1,0 +1,80 @@
+E:\program/DSANet/src\clip\clip.py:6: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging
+  WARN missing 1 keys e.g. ['motion_beta']
+[ucf_base_s234] theta1 0.8800 (A 0.9751 B 0.7270 B|z 0.6729 C 0.7167)
+[ucf_base_s234] theta2 0.8800 (A 0.9751 B 0.7270 B|z 0.6729 C 0.7167) | within_mean2 0.6892 corr 0.150 | 16s
+saved E:\program\CAFE\out\dump_base.json
+E:\program/DSANet/src\clip\clip.py:6: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging
+saved E:\program\CAFE\out\dump_555.json
+E:\program/DSANet/src\clip\clip.py:6: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging
+saved E:\program\CAFE\out\dump_789.json
+E:\program/DSANet/src\clip\clip.py:6: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging
+[ucf_motion6_s555] theta1 0.8717 (A 0.9728 B 0.7180 B|z 0.6604 C 0.6981)
+[ucf_motion6_s555] theta2 0.8717 (A 0.9728 B 0.7180 B|z 0.6604 C 0.6981) | within_mean2 0.7171 corr 0.288 | 16s
+saved E:\program\CAFE\out\dump_motion6.json
+E:\program/DSANet/src\clip\clip.py:6: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging
+saved E:\program\CAFE\out\dump_789.json
+E:\program/DSANet/src\clip\clip.py:6: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging
+[ucf_motion9.72v_s234] theta1 0.8494 (A 0.9619 B 0.6978 B|z 0.6516 C 0.6561)
+[ucf_motion9.72v_s234] theta2 0.8494 (A 0.9619 B 0.6978 B|z 0.6516 C 0.6561) | within_mean2 0.6213 corr -0.027 | 16s
+saved E:\program\CAFE\out\dump_motion9.72v.json
+E:\program/DSANet/src\clip\clip.py:6: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging
+E:\program/DSANet/src\clip\clip.py:6: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging
+[ucf_motion6shuf5678_s234] theta1 0.8616 (A 0.9670 B 0.7171 B|z 0.6786 C 0.6806)
+[ucf_motion6shuf5678_s234] theta2 0.8616 (A 0.9670 B 0.7171 B|z 0.6786 C 0.6806) | within_mean2 0.6763 corr 0.121 | 16s
+saved E:\program\CAFE\out\dump_motion6shuf5678.json
+E:\program/DSANet/src\clip\clip.py:6: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging
+[ucf_motion6shuf9999_s234] theta1 0.8620 (A 0.9704 B 0.6818 B|z 0.6383 C 0.6760)
+[ucf_motion6shuf9999_s234] theta2 0.8620 (A 0.9704 B 0.6818 B|z 0.6383 C 0.6760) | within_mean2 0.6837 corr 0.124 | 16s
+saved E:\program\CAFE\out\dump_motion6shuf9999.json
+E:\program/DSANet/src\clip\clip.py:6: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging
+[ucf_core8g1_s234] theta1 0.8684 (A 0.9759 B 0.7124 B|z 0.6621 C 0.6837)
+[ucf_core8g1_s234] theta2 0.8684 (A 0.9759 B 0.7124 B|z 0.6621 C 0.6837) | within_mean2 0.6784 corr 0.126 | 16s
+saved E:\program\CAFE\out\dump_core8g1.json
+E:\program/DSANet/src\clip\clip.py:6: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging
+[ucf_core14g1_s234] theta1 0.8686 (A 0.9785 B 0.7202 B|z 0.6813 C 0.6797)
+[ucf_core14g1_s234] theta2 0.8686 (A 0.9785 B 0.7202 B|z 0.6813 C 0.6797) | within_mean2 0.6780 corr 0.181 | 16s
+saved E:\program\CAFE\out\dump_core14g1.json
+E:\program/DSANet/src\clip\clip.py:6: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging
+[ucf_core14txt_s234] theta1 0.8717 (A 0.9725 B 0.7169 B|z 0.6728 C 0.6989)
+[ucf_core14txt_s234] theta2 0.8717 (A 0.9725 B 0.7169 B|z 0.6728 C 0.6989) | within_mean2 0.6805 corr 0.151 | 16s
+saved E:\program\CAFE\out\dump_core14txt.json
+E:\program/DSANet/src\clip\clip.py:6: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging
+[ucf_core14txtg1_s234] theta1 0.8692 (A 0.9792 B 0.7195 B|z 0.6816 C 0.6803)
+[ucf_core14txtg1_s234] theta2 0.8692 (A 0.9792 B 0.7195 B|z 0.6816 C 0.6803) | within_mean2 0.6758 corr 0.145 | 16s
+saved E:\program\CAFE\out\dump_core14txtg1.json
+E:\program/DSANet/src\clip\clip.py:6: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging
+[ucf_core8g0.1_s234] theta1 0.8660 (A 0.9703 B 0.7189 B|z 0.6722 C 0.6870)
+[ucf_core8g0.1_s234] theta2 0.8660 (A 0.9703 B 0.7189 B|z 0.6722 C 0.6870) | within_mean2 0.6766 corr 0.148 | 17s
+saved E:\program\CAFE\out\dump_core8g0.1.json
+E:\program/DSANet/src\clip\clip.py:6: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging
+[ucf_attr_s234] theta1 0.8724 (A 0.9788 B 0.7080 B|z 0.6545 C 0.6899)
+[ucf_attr_s234] theta2 0.8724 (A 0.9788 B 0.7080 B|z 0.6545 C 0.6899) | within_mean2 0.6912 corr 0.172 | 16s
+saved E:\program\CAFE\out\dump_attr.json
+E:\program/DSANet/src\clip\clip.py:6: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging
+  WARN missing 1 keys e.g. ['motion_beta']
+[ucf_cons0_s234] theta1 0.8759 (A 0.9774 B 0.7235 B|z 0.6744 C 0.7016)
+[ucf_cons0_s234] theta2 0.8759 (A 0.9774 B 0.7235 B|z 0.6744 C 0.7016) | within_mean2 0.6881 corr 0.145 | 15s
+saved E:\program\CAFE\out\dump_cons0.json
+E:\program/DSANet/src\clip\clip.py:6: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging
+  WARN missing 1 keys e.g. ['motion_beta']
+[ucf_res_s234] theta1 0.8682 (A 0.9767 B 0.7467 B|z 0.7093 C 0.6814)
+[ucf_res_s234] theta2 0.8682 (A 0.9767 B 0.7467 B|z 0.7093 C 0.6814) | within_mean2 0.7118 corr 0.328 | 15s
+saved E:\program\CAFE\out\dump_res.json
+ALLDONE 

@@ -1,0 +1,4 @@
+ucf: 290 videos 69368 frames 5260 pos | w=0.631653 lam=0.010534 | weights A 0.6317 B 0.00388 C 0.3645 | same-video pairs 1308484 of 337208080 (0.3880%)
+   exchange rate: 1 reported point = 257.7 localization points
+xd: 800 videos 145706 frames 64050 pos | w=0.529869 lam=0.002566 | weights A 0.5299 B 0.00121 C 0.4689 | same-video pairs 6309152 of 5230066800 (0.1206%)
+   exchange rate: 1 reported point = 829.0 localization points

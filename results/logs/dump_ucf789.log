@@ -1,0 +1,6 @@
+E:\program/DSANet/src\clip\clip.py:6: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging
+[ucf_base_s789] theta1 0.8772 (A 0.9773 B 0.7558 B|z 0.7169 C 0.7050)
+[ucf_base_s789] theta2 0.8772 (A 0.9773 B 0.7558 B|z 0.7169 C 0.7050) | within_mean2 0.7046 corr 0.141 | 16s
+saved E:/program/CAFE/out/dsanet_dump.json
+EXITCODE=0 

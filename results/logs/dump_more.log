@@ -1,0 +1,24 @@
+E:\program/DSANet/src\clip\clip.py:6: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging
+[ucf_base_s555] theta1 0.8705 (A 0.9752 B 0.7236 B|z 0.6688 C 0.6907)
+[ucf_base_s555] theta2 0.8705 (A 0.9752 B 0.7236 B|z 0.6688 C 0.6907) | within_mean2 0.6820 corr 0.139 | 17s
+[ucf_base_s789] theta1 0.8772 (A 0.9773 B 0.7558 B|z 0.7169 C 0.7050)
+[ucf_base_s789] theta2 0.8772 (A 0.9773 B 0.7558 B|z 0.7169 C 0.7050) | within_mean2 0.7046 corr 0.141 | 15s
+[ucf_motion6_s789] theta1 0.8778 (A 0.9728 B 0.7576 B|z 0.7230 C 0.7144)
+[ucf_motion6_s789] theta2 0.8778 (A 0.9728 B 0.7576 B|z 0.7230 C 0.7144) | within_mean2 0.7210 corr 0.233 | 17s
+[ucf_motion6shuf5678_s234] theta1 0.8616 (A 0.9670 B 0.7171 B|z 0.6786 C 0.6806)
+[ucf_motion6shuf5678_s234] theta2 0.8616 (A 0.9670 B 0.7171 B|z 0.6786 C 0.6806) | within_mean2 0.6763 corr 0.121 | 15s
+[ucf_core8g1_s234] theta1 0.8684 (A 0.9759 B 0.7124 B|z 0.6621 C 0.6837)
+[ucf_core8g1_s234] theta2 0.8684 (A 0.9759 B 0.7124 B|z 0.6621 C 0.6837) | within_mean2 0.6784 corr 0.126 | 16s
+[ucf_core14txt_s234] theta1 0.8717 (A 0.9725 B 0.7169 B|z 0.6728 C 0.6989)
+[ucf_core14txt_s234] theta2 0.8717 (A 0.9725 B 0.7169 B|z 0.6728 C 0.6989) | within_mean2 0.6805 corr 0.151 | 16s
+[ucf_attr_s234] theta1 0.8724 (A 0.9788 B 0.7080 B|z 0.6545 C 0.6899)
+[ucf_attr_s234] theta2 0.8724 (A 0.9788 B 0.7080 B|z 0.6545 C 0.6899) | within_mean2 0.6912 corr 0.172 | 16s
+  WARN missing 1 keys e.g. ['motion_beta']
+[ucf_cons0_s234] theta1 0.8759 (A 0.9774 B 0.7235 B|z 0.6744 C 0.7016)
+[ucf_cons0_s234] theta2 0.8759 (A 0.9774 B 0.7235 B|z 0.6744 C 0.7016) | within_mean2 0.6881 corr 0.145 | 16s
+  WARN missing 1 keys e.g. ['motion_beta']
+[ucf_res_s234] theta1 0.8682 (A 0.9767 B 0.7467 B|z 0.7093 C 0.6814)
+[ucf_res_s234] theta2 0.8682 (A 0.9767 B 0.7467 B|z 0.7093 C 0.6814) | within_mean2 0.7118 corr 0.328 | 16s
+saved E:\program\CAFE\out\dump_more.json
+ALLDONE 

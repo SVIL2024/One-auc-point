@@ -1,0 +1,24 @@
+rows 800 cols ['path', 'label']
+                                                                                     path    label
+0    E:/dataset/XDTestClipFeatures/Bad.Boys.1995__#01-11-55_01-12-40_label_G-B2-B6__0.npy  G-B2-B6
+1     E:/dataset/XDTestClipFeatures/Bad.Boys.1995__#01-33-51_01-34-37_label_B2-0-0__0.npy   B2-0-0
+2  E:/dataset/XDTestClipFeatures/Bad.Boys.II.2003__#00-06-42_00-10-00_label_B2-G-0__0.npy   B2-G-0
+Bad.Boys.1995__#01-11-55_01-12-40_label_G-B2-B6__0.npy (67, 512) float16
+Bad.Boys.1995__#01-33-51_01-34-37_label_B2-0-0__0.npy (69, 512) float16
+Bad.Boys.II.2003__#00-06-42_00-10-00_label_B2-G-0__0.npy (297, 512) float16
+Black.Hawk.Down.2001__#01-13-59_01-14-49_label_B2-0-0__0.npy (75, 512) float16
+Black.Hawk.Down.2001__#01-32-40_01-34-00_label_B4-0-0__0.npy (120, 512) float16
+gt.npy (2331296,) float32 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.] sum 537882
+total frames in csv 145706
+gt len 2331296 ratio 16.0
+Traceback (most recent call last):
+  File "E:\program\CAFE\xd_probe.py", line 18, in <module>
+    g2 = np.load(os.path.join(L, "gt_segment_ucf.npy")) if os.path.exists(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\program files\python312\Lib\site-packages\numpy\lib\npyio.py", line 456, in load
+    return format.read_array(fid, allow_pickle=allow_pickle,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\program files\python312\Lib\site-packages\numpy\lib\format.py", line 795, in read_array
+    raise ValueError("Object arrays cannot be loaded when "
+ValueError: Object arrays cannot be loaded when allow_pickle=False
+EXITCODE=1 

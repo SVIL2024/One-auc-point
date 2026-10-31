@@ -1,0 +1,57 @@
+== xd_base_s789 ==
+s2           raw           theta 0.5321 [0.4961,0.5734] | A 0.5182 B 0.5274 [0.4755,0.5766] | B|z 0.5252 [0.4758,0.5744] | C 0.5479 | E(B|z) 1.45
+s2           adj-all       theta 0.5328 [0.4991,0.5637] | A 0.5212 B 0.5270 [0.4813,0.5742] | B|z 0.5238 [0.4761,0.5693] | C 0.5459 | E(B|z) 1.43
+s2           adj-ctrl-med  theta 0.5331 [0.4967,0.5705] | A 0.5213 B 0.5306 [0.4845,0.5770] | B|z 0.5288 [0.4810,0.5750] | C 0.5465 | E(B|z) 1.49
+s2           adj-ctrl-q75  theta 0.5330 [0.4952,0.5680] | A 0.5214 B 0.5293 [0.4848,0.5742] | B|z 0.5268 [0.4795,0.5731] | C 0.5461 | E(B|z) 1.47
+Traceback (most recent call last):
+  File "E:\program\CAFE\cafe_adjust.py", line 174, in <module>
+    main()
+  File "E:\program\CAFE\cafe_adjust.py", line 152, in main
+    s0 = d[key]
+         ~^^^^^
+  File "c:\program files\python312\Lib\site-packages\numpy\lib\npyio.py", line 256, in __getitem__
+    return format.read_array(bytes,
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\program files\python312\Lib\site-packages\numpy\lib\format.py", line 831, in read_array
+    data = _read_bytes(fp, read_size, "array data")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\program files\python312\Lib\site-packages\numpy\lib\format.py", line 966, in _read_bytes
+    r = fp.read(size - len(data))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\program files\python312\Lib\zipfile\__init__.py", line 989, in read
+    data = self._read1(n)
+           ^^^^^^^^^^^^^^
+  File "c:\program files\python312\Lib\zipfile\__init__.py", line 1065, in _read1
+    data = self._decompressor.decompress(data, n)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+zlib.error: Error -3 while decompressing data: invalid distance code
+Traceback (most recent call last):
+  File "E:\program\CAFE\cafe_adjust.py", line 174, in <module>
+    main()
+  File "E:\program\CAFE\cafe_adjust.py", line 140, in main
+    d = np.load(args.npz)
+        ^^^^^^^^^^^^^^^^^
+  File "c:\program files\python312\Lib\site-packages\numpy\lib\npyio.py", line 427, in load
+    fid = stack.enter_context(open(os_fspath(file), "rb"))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'out\\scores_xd_base_s555.npz'
+Traceback (most recent call last):
+  File "E:\program\CAFE\cafe_adjust.py", line 174, in <module>
+    main()
+  File "E:\program\CAFE\cafe_adjust.py", line 140, in main
+    d = np.load(args.npz)
+        ^^^^^^^^^^^^^^^^^
+  File "c:\program files\python312\Lib\site-packages\numpy\lib\npyio.py", line 427, in load
+    fid = stack.enter_context(open(os_fspath(file), "rb"))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'out\\scores_xd_base_s234.npz'
+Traceback (most recent call last):
+  File "E:\program\CAFE\cafe_adjust.py", line 174, in <module>
+    main()
+  File "E:\program\CAFE\cafe_adjust.py", line 140, in main
+    d = np.load(args.npz)
+        ^^^^^^^^^^^^^^^^^
+  File "c:\program files\python312\Lib\site-packages\numpy\lib\npyio.py", line 427, in load
+    fid = stack.enter_context(open(os_fspath(file), "rb"))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'out\\scores_xd_motion3_s789.npz'

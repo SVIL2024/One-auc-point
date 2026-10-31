@@ -1,0 +1,16 @@
+device cuda | train 4000 | test 290 videos | z=mlocal placebo=False
+E:\program\CAFE\cafe_probe7.py:161: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\torch\csrc\utils\tensor_new.cpp:281.)
+  Zt = torch.tensor(Z).to(device) if Z is not None else None
+[ucf] gamma 0.00 seed 0 | theta 0.8350 A 0.9625 B 0.6803 B|z 0.6432 C 0.6157 | corr 0.162 within_mean 0.6690
+[ucf] gamma 0.10 seed 0 | theta 0.8333 A 0.9602 B 0.6771 B|z 0.6417 C 0.6149 | corr 0.153 within_mean 0.6656
+[ucf] gamma 0.30 seed 0 | theta 0.8301 A 0.9554 B 0.6736 B|z 0.6419 C 0.6146 | corr 0.142 within_mean 0.6621
+[ucf] gamma 1.00 seed 0 | theta 0.8087 A 0.9088 B 0.6725 B|z 0.6361 C 0.6368 | corr 0.112 within_mean 0.6551
+[ucf] gamma 0.00 seed 1 | theta 0.8352 A 0.9625 B 0.6813 B|z 0.6439 C 0.6162 | corr 0.164 within_mean 0.6699
+[ucf] gamma 0.10 seed 1 | theta 0.8328 A 0.9596 B 0.6781 B|z 0.6434 C 0.6147 | corr 0.153 within_mean 0.6657
+[ucf] gamma 0.30 seed 1 | theta 0.8298 A 0.9548 B 0.6756 B|z 0.6448 C 0.6146 | corr 0.144 within_mean 0.6622
+[ucf] gamma 1.00 seed 1 | theta 0.7890 A 0.9193 B 0.5359 B|z 0.5536 C 0.5657 | corr 0.063 within_mean 0.5936
+[ucf] gamma 0.00 seed 2 | theta 0.8355 A 0.9628 B 0.6798 B|z 0.6416 C 0.6165 | corr 0.165 within_mean 0.6692
+[ucf] gamma 0.10 seed 2 | theta 0.8331 A 0.9598 B 0.6765 B|z 0.6401 C 0.6153 | corr 0.154 within_mean 0.6660
+[ucf] gamma 0.30 seed 2 | theta 0.8301 A 0.9549 B 0.6739 B|z 0.6410 C 0.6155 | corr 0.145 within_mean 0.6633
+[ucf] gamma 1.00 seed 2 | theta 0.7964 A 0.8901 B 0.6625 B|z 0.6231 C 0.6355 | corr 0.114 within_mean 0.6591
+elapsed 202.9 s

@@ -1,0 +1,49 @@
+=== start 2026/10/31 ÷‹¡˘  8:31:05.55 
+--- base s234 
+E:\program/DSANet/src\clip\clip.py:6: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging
+  WARN missing 1 keys e.g. ['motion_beta']
+[ucf_base_s234] official mAP@0.5 5.68 | reimpl 5.68 | maxdiff 0.0e+00 | frame AUC 0.8800 AP 0.3738 | 57s
+--- base s555 
+E:\program/DSANet/src\clip\clip.py:6: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging
+[ucf_base_s555] official mAP@0.5 4.12 | reimpl 4.12 | maxdiff 0.0e+00 | frame AUC 0.8705 AP 0.3173 | 56s
+--- base s789 
+E:\program/DSANet/src\clip\clip.py:6: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging
+[ucf_base_s789] official mAP@0.5 5.18 | reimpl 5.18 | maxdiff 0.0e+00 | frame AUC 0.8772 AP 0.3346 | 56s
+--- motion6 s555 
+E:\program/DSANet/src\clip\clip.py:6: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging
+[ucf_motion6_s555] official mAP@0.5 2.88 | reimpl 2.88 | maxdiff 0.0e+00 | frame AUC 0.8717 AP 0.3190 | 57s
+--- motion6 s789 
+E:\program/DSANet/src\clip\clip.py:6: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging
+[ucf_motion6_s789] official mAP@0.5 4.61 | reimpl 4.61 | maxdiff 0.0e+00 | frame AUC 0.8778 AP 0.3253 | 58s
+--- motion6shuf5678 s234 
+E:\program/DSANet/src\clip\clip.py:6: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging
+[ucf_motion6shuf5678_s234] official mAP@0.5 2.44 | reimpl 2.44 | maxdiff 0.0e+00 | frame AUC 0.8616 AP 0.2936 | 58s
+--- res s234 
+E:\program/DSANet/src\clip\clip.py:6: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging
+  WARN missing 1 keys e.g. ['motion_beta']
+[ucf_res_s234] official mAP@0.5 4.63 | reimpl 4.63 | maxdiff 0.0e+00 | frame AUC 0.8682 AP 0.3042 | 57s
+--- attr s234 
+E:\program/DSANet/src\clip\clip.py:6: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging
+[ucf_attr_s234] official mAP@0.5 5.82 | reimpl 5.82 | maxdiff 0.0e+00 | frame AUC 0.8724 AP 0.3029 | 57s
+--- cons0 s234 
+E:\program/DSANet/src\clip\clip.py:6: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging
+  WARN missing 1 keys e.g. ['motion_beta']
+[ucf_cons0_s234] official mAP@0.5 5.46 | reimpl 5.46 | maxdiff 0.0e+00 | frame AUC 0.8759 AP 0.3144 | 56s
+--- core8g1 s234 
+E:\program/DSANet/src\clip\clip.py:6: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging
+[ucf_core8g1_s234] official mAP@0.5 4.05 | reimpl 4.05 | maxdiff 0.0e+00 | frame AUC 0.8684 AP 0.2970 | 57s
+--- core14txt s234 
+E:\program/DSANet/src\clip\clip.py:6: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging
+[ucf_core14txt_s234] official mAP@0.5 5.03 | reimpl 5.03 | maxdiff 0.0e+00 | frame AUC 0.8717 AP 0.3396 | 57s
+=== done 2026/10/31 ÷‹¡˘  8:42:39.79 

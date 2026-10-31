@@ -1,0 +1,188 @@
+E:\program/DSANet/src\clip\clip.py:6: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging
+Traceback (most recent call last):
+  File "E:\program\CAFE\cafe_map11.py", line 30, in <module>
+    from model import DSANet, refine_scores_hierarchical            # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ImportError: cannot import name 'refine_scores_hierarchical' from 'model' (E:\program/DSANet/src\model.py)
+DONE_ONE 1 
+E:\program/DSANet/src\clip\clip.py:6: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging
+[ucf_base_s789] theta 0.8772 B 0.7558 B|z 0.7169 | mAP@0.5 518.03% avg 1284.45% | 50s
+DONE_ONE 0 
+E:\program/DSANet/src\clip\clip.py:6: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging
+  WARN missing 1 keys e.g. ['motion_beta']
+[ucf_base_s234] theta 0.8800 B 0.7270 B|z 0.6729 | mAP@0.5 5.68% avg 10.10% | 51s
+E:\program/DSANet/src\clip\clip.py:6: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging
+[ucf_base_s555] theta 0.8705 B 0.7236 B|z 0.6688 | mAP@0.5 4.12% avg 11.30% | 51s
+E:\program/DSANet/src\clip\clip.py:6: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging
+[ucf_motion6_s555] theta 0.8717 B 0.7180 B|z 0.6604 | mAP@0.5 2.88% avg 10.15% | 52s
+E:\program/DSANet/src\clip\clip.py:6: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging
+[ucf_motion6_s789] theta 0.8778 B 0.7576 B|z 0.7230 | mAP@0.5 4.61% avg 12.46% | 51s
+E:\program/DSANet/src\clip\clip.py:6: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging
+Traceback (most recent call last):
+  File "E:\program\CAFE\cafe_map11.py", line 159, in <module>
+    main()
+  File "E:\program\CAFE\cafe_map11.py", line 133, in main
+    dec = D.decompose(pairs, mlocal)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\program/CAFE\dsanet_dump.py", line 119, in decompose
+    a = roc_auc_score(np.r_[np.ones(len(P)), np.zeros(len(A))], np.r_[P, A])
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\sklearn\utils\_param_validation.py", line 218, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\sklearn\metrics\_ranking.py", line 683, in roc_auc_score
+    y_score = check_array(y_score, ensure_2d=False)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\sklearn\utils\validation.py", line 1074, in check_array
+    _assert_all_finite(
+  File "C:\Program Files\Python312\Lib\site-packages\sklearn\utils\validation.py", line 133, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "C:\Program Files\Python312\Lib\site-packages\sklearn\utils\validation.py", line 182, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input contains NaN.
+RETRY motion6shuf5678 234 
+E:\program/DSANet/src\clip\clip.py:6: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging
+[ucf_motion6shuf5678_s234] theta 0.8616 B 0.7171 B|z 0.6786 | mAP@0.5 2.44% avg 7.17% | 51s
+E:\program/DSANet/src\clip\clip.py:6: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging
+  WARN missing 1 keys e.g. ['motion_beta']
+Traceback (most recent call last):
+  File "E:\program\CAFE\cafe_map11.py", line 159, in <module>
+    main()
+  File "E:\program\CAFE\cafe_map11.py", line 115, in main
+    stack, s2list, lens = infer(model, loader, oargs.visual_length,
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\torch\utils\_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\program\CAFE\cafe_map11.py", line 63, in infer
+    outs = model(visual, pm, prompt_text, lengths, DNP_use)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\torch\nn\modules\module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\torch\nn\modules\module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\program/DSANet/src\model.py", line 629, in forward
+    visual_features = self.encode_video(visual, padding_mask, lengths)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\program/DSANet/src\model.py", line 584, in encode_video
+    x, _ = self.temporal((images, None))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\torch\nn\modules\module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\torch\nn\modules\module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\program/DSANet/src\model.py", line 80, in forward
+    return self.resblocks(x)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\torch\nn\modules\module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\torch\nn\modules\module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\torch\nn\modules\container.py", line 250, in forward
+    input = module(input)
+            ^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\torch\nn\modules\module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\torch\nn\modules\module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\program/DSANet/src\model.py", line 68, in forward
+    x = x + self.mlp(self.ln_2(x))
+            ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\torch\nn\modules\module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\torch\nn\modules\module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\torch\nn\modules\container.py", line 250, in forward
+    input = module(input)
+            ^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\torch\nn\modules\module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\torch\nn\modules\module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\program/DSANet/src\model.py", line 43, in forward
+    return x * torch.sigmoid(1.702 * x)
+                             ~~~~~~^~~
+RuntimeError: CUDA error: an illegal instruction was encountered
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+RETRY res 234 
+E:\program/DSANet/src\clip\clip.py:6: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging
+Traceback (most recent call last):
+  File "E:\program\CAFE\cafe_map11.py", line 159, in <module>
+    main()
+  File "E:\program\CAFE\cafe_map11.py", line 106, in main
+    model = DSANet(oargs.classes_num, oargs.embed_dim, oargs.visual_length,
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\program/DSANet/src\model.py", line 348, in __init__
+    self.clipmodel, _ = clip.load("ViT-B/16", device)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\program/DSANet/src\clip\clip.py", line 139, in load
+    model = build_model(state_dict or model.state_dict()).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\torch\nn\modules\module.py", line 1340, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\torch\nn\modules\module.py", line 900, in _apply
+    module._apply(fn)
+  File "C:\Program Files\Python312\Lib\site-packages\torch\nn\modules\module.py", line 900, in _apply
+    module._apply(fn)
+  File "C:\Program Files\Python312\Lib\site-packages\torch\nn\modules\module.py", line 900, in _apply
+    module._apply(fn)
+  [Previous line repeated 2 more times]
+  File "C:\Program Files\Python312\Lib\site-packages\torch\nn\modules\module.py", line 927, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\site-packages\torch\nn\modules\module.py", line 1326, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: an illegal memory access was encountered
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+E:\program/DSANet/src\clip\clip.py:6: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging
+[ucf_attr_s234] theta 0.8724 B 0.7080 B|z 0.6545 | mAP@0.5 5.82% avg 13.03% | 51s
+E:\program/DSANet/src\clip\clip.py:6: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging
+  WARN missing 1 keys e.g. ['motion_beta']
+[ucf_cons0_s234] theta 0.8759 B 0.7235 B|z 0.6744 | mAP@0.5 5.46% avg 11.16% | 51s
+E:\program/DSANet/src\clip\clip.py:6: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging
+[ucf_core8g1_s234] theta 0.8684 B 0.7124 B|z 0.6621 | mAP@0.5 4.05% avg 10.64% | 51s
+E:\program/DSANet/src\clip\clip.py:6: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging
+[ucf_core14txt_s234] theta 0.8717 B 0.7169 B|z 0.6728 | mAP@0.5 5.03% avg 11.88% | 51s
+BATCH_DONE 
+E:\program/DSANet/src\clip\clip.py:6: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging
+  WARN missing 1 keys e.g. ['motion_beta']
+[ucf_res_s234] theta 0.8682 B 0.7467 B|z 0.7093 | mAP@0.5 4.63% avg 9.83% | 50s
+E:\program/DSANet/src\clip\clip.py:6: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging
+[ucf_base_s789] theta 0.8772 B 0.7558 B|z 0.7169 | mAP@0.5 5.18% avg 12.84% | 51s
+BATCH2_DONE 

@@ -1,0 +1,53 @@
+== json dumps ==
+['dump_555.json', 'dump_789.json', 'dump_attr.json', 'dump_base.json', 'dump_cons0.json', 'dump_core14g1.json', 'dump_core14txt.json', 'dump_core14txtg1.json', 'dump_core8g0.1.json', 'dump_core8g1.json', 'dump_more.json', 'dump_motion6.json', 'dump_motion6shuf5678.json', 'dump_motion6shuf9999.json', 'dump_motion9.72v.json', 'dump_res.json', 'dump_scores_ucf.json', 'dump_scores_xd.json']
+== npz ==
+['cache_ucf_train.npz', 'scores_ucf_attr_s234.npz', 'scores_ucf_base_s789.npz', 'scores_ucf_core8g1_s234.npz', 'scores_ucf_res_s234.npz', 'scores_xd_base_s789.npz', 'xdstack_xd_base_s234.npz', 'xdstack_xd_base_s555.npz', 'xdstack_xd_base_s789.npz', 'xdstack_xd_motion3_s789.npz']
+
+#### dump_base.json (0.0 MB)
+root: dict(1 keys) -> ['ucf_base_s234']
+  ucf_base_s234: dict(9 keys) -> ['tag', 'ckpt', 'n_frames', 'd1', 'd2', 'within_mean1', 'within_mean2', 'corr_motion2', 'secs']
+    tag: str 'ucf_base_s234'
+    ckpt: str 'E:/program/DSANet\\model\\ucf_base_s234.pth'
+    n_frames: int 69368
+    d1: dict(8 keys) -> ['w', 'lam', 'A', 'B', 'B_cond', 'C', 'hard', 'theta']
+      w: float 0.6316528358395208
+      lam: float 0.010534480254511647
+      A: float 0.9750938903590093
+      B: float 0.726986344502493
+
+#### dump_789.json (0.0 MB)
+root: dict(0 keys) -> []
+
+#### npz keys
+cache_ucf_train.npz 3297.3 MB
+    X float16 (16100, 200, 512)
+    y float32 (16100,)
+scores_ucf_attr_s234.npz 0.7 MB
+    s2 float32 (69368,)
+    s1 float32 (69368,)
+    lens int64 (290,)
+    gt int64 (69368,)
+    mlocal float32 (69368,)
+scores_ucf_base_s789.npz 0.7 MB
+    s2 float32 (69368,)
+    s1 float32 (69368,)
+    lens int64 (290,)
+    gt int64 (69368,)
+    mlocal float32 (69368,)
+scores_ucf_core8g1_s234.npz 0.7 MB
+    s2 float32 (69368,)
+    s1 float32 (69368,)
+    lens int64 (290,)
+    gt int64 (69368,)
+    mlocal float32 (69368,)
+scores_ucf_res_s234.npz 0.7 MB
+    s2 float32 (69368,)
+    s1 float32 (69368,)
+    lens int64 (290,)
+    gt int64 (69368,)
+    mlocal float32 (69368,)
+scores_xd_base_s789.npz 1.5 MB
+    s2|s float32 (2331296,)
+    lens int64 (800,)
+    gt int64 (2331296,)
+    mlocal float64 (2331296,)

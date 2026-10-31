@@ -1,0 +1,7 @@
+gt shape (2331296,) dtype float32
+sum 537882.0
+first rows [0. 0. 0.]
+test rows 800
+[('A', 300), ('B1-0-0', 107), ('B4-0-0', 99), ('B6-0-0', 93), ('G-0-0', 85), ('B2-0-0', 62)]
+feat0 (67, 512)
+labels unique 22

@@ -1,0 +1,12 @@
+E:\program/DSANet/src\clip\clip.py:6: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging
+[ucf_base_s789] theta1 0.8772 (A 0.9773 B 0.7558 B|z 0.7169 C 0.7050)
+[ucf_base_s789] theta2 0.8772 (A 0.9773 B 0.7558 B|z 0.7169 C 0.7050) | within_mean2 0.7046 corr 0.141 | 16s
+  WARN missing 1 keys e.g. ['motion_beta']
+[ucf_res_s234] theta1 0.8682 (A 0.9767 B 0.7467 B|z 0.7093 C 0.6814)
+[ucf_res_s234] theta2 0.8682 (A 0.9767 B 0.7467 B|z 0.7093 C 0.6814) | within_mean2 0.7118 corr 0.328 | 15s
+[ucf_core8g1_s234] theta1 0.8684 (A 0.9759 B 0.7124 B|z 0.6621 C 0.6837)
+[ucf_core8g1_s234] theta2 0.8684 (A 0.9759 B 0.7124 B|z 0.6621 C 0.6837) | within_mean2 0.6784 corr 0.126 | 15s
+[ucf_attr_s234] theta1 0.8724 (A 0.9788 B 0.7080 B|z 0.6545 C 0.6899)
+[ucf_attr_s234] theta2 0.8724 (A 0.9788 B 0.7080 B|z 0.6545 C 0.6899) | within_mean2 0.6912 corr 0.172 | 16s
+saved E:\program\CAFE\out\dump_scores_ucf.json

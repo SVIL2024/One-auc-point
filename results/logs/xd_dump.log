@@ -1,0 +1,38 @@
+E:\program/DSANet/src\clip\clip.py:6: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging
+args: {'visual_length': 256, 'train_list': 'list/xd_CLIP_rgb.csv', 'test_list': 'E:/program/DSANet\\list\\xd_CLIP_rgbtest.csv', 'gt_path': 'E:/program/DSANet\\list/gt.npy', 'gt_segment_path': 'E:/program/DSANet\\list/gt_segment.npy', 'gt_label_path': 'E:/program/DSANet\\list/gt_label.npy'}
+Traceback (most recent call last):
+  File "E:\program\CAFE\dsanet_xd_dump.py", line 123, in <module>
+    main()
+  File "E:\program\CAFE\dsanet_xd_dump.py", line 99, in main
+    roc1, ap1 = xd_test.test(model, loader, oargs.visual_length,
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\program/DSANet/src\xd_test.py", line 68, in test
+    _, logits1, logits2, _, _, _ = model(visual, padding_mask, prompt_text, lengths, DNP_use)
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\program files\python312\Lib\site-packages\torch\nn\modules\module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\program files\python312\Lib\site-packages\torch\nn\modules\module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\program/DSANet/src\model.py", line 629, in forward
+    visual_features = self.encode_video(visual, padding_mask, lengths)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\program/DSANet/src\model.py", line 588, in encode_video
+    disadj = self.disAdj(x.shape[0], x.shape[1])
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\program files\python312\Lib\site-packages\torch\nn\modules\module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\program files\python312\Lib\site-packages\torch\nn\modules\module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\program/DSANet/src\utils\layers.py", line 176, in forward
+    self.dist = torch.from_numpy(squareform(dist)).to('cuda')
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: CUDA error: an illegal memory access was encountered
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+

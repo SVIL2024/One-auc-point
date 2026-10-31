@@ -1,0 +1,47 @@
+cache hit E:/program/CAFE/out/cache_ucf_train.npz (16100, 200, 512)
+device cuda | train 4000 (pos 2000) | test 290 frames 69368 pos 5260
+  video: 4000 videos T=200 hidden=0
+  video ep 00 loss 0.5448
+  video ep 10 loss 0.2670
+  video ep 20 loss 0.2264
+  video ep 30 loss 0.2050
+  video ep 39 loss 0.1925
+[video-s       ] pooled 0.3022 | easy 0.2257 hard 0.4335 | within 0.4714 (med 0.4903) frac<.5 0.53 | ident 0.3022
+[video-const   ] pooled 0.8228 | easy 0.9762 hard 0.5597 | within 0.5000 (med 0.5000) frac<.5 0.00 | ident 0.8228
+  raw: 4000 videos T=200 hidden=0
+  raw ep 00 loss 0.5649
+  raw ep 10 loss 0.2523
+  raw ep 20 loss 0.1954
+  raw ep 30 loss 0.1682
+  raw ep 39 loss 0.1536
+[raw-s         ] pooled 0.8342 | easy 0.9620 hard 0.6151 | within 0.6689 (med 0.7020) frac<.5 0.22 | ident 0.8342
+[raw-max       ] pooled 0.7991 | easy 0.9387 hard 0.5597 | within 0.5000 (med 0.5000) frac<.5 0.00 | ident 0.7991
+[raw+g         ] pooled 0.7430 | easy 0.8675 hard 0.5295 | within 0.6689 (med 0.7020) frac<.5 0.22 | ident 0.7430
+  kappa: 4000 videos T=200 hidden=0
+  kappa ep 00 loss 0.6528
+  kappa ep 10 loss 0.6027
+  kappa ep 20 loss 0.5989
+  kappa ep 30 loss 0.5984
+  kappa ep 39 loss 0.5972
+[kappa-s       ] pooled 0.1618 | easy 0.0352 hard 0.3789 | within 0.3124 (med 0.2559) frac<.5 0.81 | ident 0.1618
+[kappa-max     ] pooled 0.2872 | easy 0.1669 hard 0.4935 | within 0.5000 (med 0.5000) frac<.5 0.00 | ident 0.2872
+[kappa+g       ] pooled 0.2274 | easy 0.1386 hard 0.3796 | within 0.3124 (med 0.2559) frac<.5 0.81 | ident 0.2274
+  mix: 4000 videos T=200 hidden=0
+  mix ep 00 loss 1.2602
+  mix ep 10 loss 0.9326
+  mix ep 20 loss 0.8940
+  mix ep 30 loss 0.8838
+  mix ep 39 loss 0.8804
+[mix-s         ] pooled 0.8220 | easy 0.9476 hard 0.6065 | within 0.6599 (med 0.7064) frac<.5 0.21 | ident 0.8220
+[mix-max       ] pooled 0.7896 | easy 0.9276 hard 0.5529 | within 0.5000 (med 0.5000) frac<.5 0.00 | ident 0.7896
+[mix+g         ] pooled 0.7308 | easy 0.8507 hard 0.5253 | within 0.6599 (med 0.7064) frac<.5 0.21 | ident 0.7308
+  all: 4000 videos T=200 hidden=0
+  all ep 00 loss 1.1977
+  all ep 10 loss 0.8697
+  all ep 20 loss 0.8253
+  all ep 30 loss 0.8035
+  all ep 39 loss 0.7897
+[all-s         ] pooled 0.1618 | easy 0.0352 hard 0.3789 | within 0.3124 (med 0.2559) frac<.5 0.81 | ident 0.1618
+[all+g         ] pooled 0.3789 | easy 0.3714 hard 0.3917 | within 0.3124 (med 0.2559) frac<.5 0.81 | ident 0.3789
+elapsed 69.7 s
+EXITCODE=0 

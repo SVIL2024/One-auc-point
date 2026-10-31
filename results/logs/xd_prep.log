@@ -1,0 +1,55 @@
+[xd_base_s789] pooled AUC 0.9449 | repo AUC2 0.9449 | diff -0.00000
+  videos 800 frames 2331296 pos 537882 | w_A 0.698511 w_B 0.000710 w_C 0.300778
+  same-video pairs 685295122 of 964645109148 (0.0710%) | 1 point = 1407.6 B points
+saved scores_xd_base_s789.npz
+Traceback (most recent call last):
+  File "E:\program\CAFE\cafe_xd_prep2.py", line 100, in <module>
+    main()
+  File "E:\program\CAFE\cafe_xd_prep2.py", line 48, in main
+    d = np.load("E:/program/CAFE/out/xdstack_%s.npz" % args.tag,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\program files\python312\Lib\site-packages\numpy\lib\npyio.py", line 427, in load
+    fid = stack.enter_context(open(os_fspath(file), "rb"))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'E:/program/CAFE/out/xdstack_xd_base_s555.npz'
+Traceback (most recent call last):
+  File "E:\program\CAFE\cafe_xd_prep2.py", line 100, in <module>
+    main()
+  File "E:\program\CAFE\cafe_xd_prep2.py", line 48, in main
+    d = np.load("E:/program/CAFE/out/xdstack_%s.npz" % args.tag,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\program files\python312\Lib\site-packages\numpy\lib\npyio.py", line 427, in load
+    fid = stack.enter_context(open(os_fspath(file), "rb"))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'E:/program/CAFE/out/xdstack_xd_base_s234.npz'
+Traceback (most recent call last):
+  File "E:\program\CAFE\cafe_xd_prep2.py", line 100, in <module>
+    main()
+  File "E:\program\CAFE\cafe_xd_prep2.py", line 48, in main
+    d = np.load("E:/program/CAFE/out/xdstack_%s.npz" % args.tag,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\program files\python312\Lib\site-packages\numpy\lib\npyio.py", line 427, in load
+    fid = stack.enter_context(open(os_fspath(file), "rb"))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'E:/program/CAFE/out/xdstack_xd_motion3_s789.npz'
+Traceback (most recent call last):
+  File "E:\program\CAFE\cafe_xd_prep.py", line 55, in <module>
+    main()
+  File "E:\program\CAFE\cafe_xd_prep.py", line 40, in main
+    assert len(gtf) == len(flat), (len(gtf), len(flat))
+           ^^^^^^^^^^^^^^^^^^^^^
+AssertionError: (145706, 2331296)
+Traceback (most recent call last):
+  File "E:\program\CAFE\cafe_xd_prep.py", line 55, in <module>
+    main()
+  File "E:\program\CAFE\cafe_xd_prep.py", line 40, in main
+    assert len(gtf) == len(flat), (len(gtf), len(flat))
+           ^^^^^^^^^^^^^^^^^^^^^
+AssertionError: (145706, 2331296)
+Traceback (most recent call last):
+  File "E:\program\CAFE\cafe_xd_prep.py", line 55, in <module>
+    main()
+  File "E:\program\CAFE\cafe_xd_prep.py", line 40, in main
+    assert len(gtf) == len(flat), (len(gtf), len(flat))
+           ^^^^^^^^^^^^^^^^^^^^^
+AssertionError: (145706, 2331296)

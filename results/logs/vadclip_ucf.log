@@ -1,0 +1,12 @@
+ckpt vadclip_model_ucf.pth  missing=0 unexpected=0
+C:\Program Files\Python312\Lib\site-packages\torch\nn\functional.py:5849: UserWarning: Support for mismatched key_padding_mask and attn_mask is deprecated. Use same type for both instead.
+  warnings.warn(
+AUC1 0.8808  AP1 0.3393 | AUC2 0.8560  AP2 0.2653
+mAP@0.1 = 12.61%%
+mAP@0.2 = 9.27%%
+mAP@0.3 = 7.00%%
+mAP@0.4 = 4.98%%
+mAP@0.5 = 2.95%%
+average MAP: 7.36
+theta 0.8560  A 0.9737  B 0.7157  B|z 0.6713  C 0.6536  w 0.631653
+secs 54.9

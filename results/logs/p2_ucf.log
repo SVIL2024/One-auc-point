@@ -1,0 +1,76 @@
+device cuda
+  loaded 0/16100
+  loaded 2000/16100
+  loaded 4000/16100
+  loaded 6000/16100
+  loaded 8000/16100
+  loaded 10000/16100
+  loaded 12000/16100
+  loaded 14000/16100
+  loaded 16000/16100
+wrote cache E:/program/CAFE/out/cache_ucf_train.npz
+train 4000 (pos 2000) | test 290 frames 69368 pos 5260
+  video: 4000 videos, T=200
+  video ep 00 loss 0.5448
+  video ep 05 loss 0.3117
+  video ep 10 loss 0.2670
+  video ep 15 loss 0.2435
+  video ep 20 loss 0.2264
+  video ep 25 loss 0.2147
+  video ep 30 loss 0.2050
+  video ep 35 loss 0.1977
+  video ep 39 loss 0.1925
+[video           ] pooled 0.8228 | easy 0.9762 hard 0.5597 | within 0.5000 (med 0.5000) | identity 0.8228
+  raw: 4000 videos, T=200
+  raw ep 00 loss 1.1098
+  raw ep 05 loss 0.6250
+  raw ep 10 loss 0.5193
+  raw ep 15 loss 0.4620
+  raw ep 20 loss 0.4218
+  raw ep 25 loss 0.3945
+  raw ep 30 loss 0.3732
+  raw ep 35 loss 0.3571
+  raw ep 39 loss 0.3461
+[raw-f           ] pooled 0.8342 | easy 0.9620 hard 0.6151 | within 0.6689 (med 0.7020) | identity 0.8342
+[raw-max         ] pooled 0.7991 | easy 0.9387 hard 0.5597 | within 0.5000 (med 0.5000) | identity 0.7991
+[raw+vid         ] pooled 0.8359 | easy 0.9744 hard 0.5985 | within 0.6689 (med 0.7020) | identity 0.8359
+  fus: 4000 videos, T=200
+  fus ep 00 loss 0.5448
+  fus ep 05 loss 0.3117
+  fus ep 10 loss 0.2670
+  fus ep 15 loss 0.2435
+  fus ep 20 loss 0.2264
+  fus ep 25 loss 0.2147
+  fus ep 30 loss 0.2050
+  fus ep 35 loss 0.1977
+  fus ep 39 loss 0.1925
+[fus-f           ] pooled 0.3022 | easy 0.2257 hard 0.4335 | within 0.4714 (med 0.4903) | identity 0.3022
+[fus+vid         ] pooled 0.6072 | easy 0.6904 hard 0.4644 | within 0.4714 (med 0.4903) | identity 0.6072
+  contrast: 4000 videos, T=200
+  contrast ep 00 loss 1.4165
+  contrast ep 05 loss 1.0914
+  contrast ep 10 loss 1.0396
+  contrast ep 15 loss 1.0128
+  contrast ep 20 loss 0.9939
+  contrast ep 25 loss 0.9815
+  contrast ep 30 loss 0.9723
+  contrast ep 35 loss 0.9631
+  contrast ep 39 loss 0.9574
+[contrast-f      ] pooled 0.1571 | easy 0.0329 hard 0.3700 | within 0.3095 (med 0.2600) | identity 0.1571
+[contrast+vid    ] pooled 0.3637 | easy 0.3559 hard 0.3771 | within 0.3095 (med 0.2600) | identity 0.3637
+  cmil: 4000 videos, T=200
+  cmil ep 00 loss 2.1827
+  cmil ep 05 loss 1.8493
+  cmil ep 10 loss 1.7826
+  cmil ep 15 loss 1.7270
+  cmil ep 20 loss 1.4880
+  cmil ep 25 loss 1.4168
+  cmil ep 30 loss 1.3572
+  cmil ep 35 loss 1.3187
+  cmil ep 39 loss 1.3019
+[cmil-f          ] pooled 0.8192 | easy 0.9472 hard 0.5999 | within 0.6551 (med 0.6990) | identity 0.8192
+[cmil-max        ] pooled 0.7944 | easy 0.9305 hard 0.5610 | within 0.5000 (med 0.5000) | identity 0.7944
+[cmil+vid        ] pooled 0.8302 | easy 0.9679 hard 0.5939 | within 0.6551 (med 0.6990) | identity 0.8302
+elapsed 129.7 s
+wrote E:\program\CAFE\out\probe2_ucf.csv
+EXITCODE=0 

@@ -1,0 +1,17 @@
+device cuda | train 4000 | test 290 videos 69368 frames
+[raw] theta 0.8350 = 0.6317*A(0.9625) + 0.00388*B(0.6803) + 0.3645*C(0.6157) | tau_mean 0.6690
+[z-time] theta 0.5155 = 0.6317*A(0.5144) + 0.00388*B(0.5005) + 0.3645*C(0.5177) | tau_mean 0.5049
+[z-motion] theta 0.6592 = 0.6317*A(0.6750) + 0.00388*B(0.6338) + 0.3645*C(0.6320) | tau_mean 0.6918
+[z-motion_local] theta 0.6776 = 0.6317*A(0.6972) + 0.00388*B(0.6583) + 0.3645*C(0.6437) | tau_mean 0.7186
+[z-fnorm] theta 0.5082 = 0.6317*A(0.4697) + 0.00388*B(0.4643) + 0.3645*C(0.5752) | tau_mean 0.4840
+[adj-all] theta 0.8226 = 0.6317*A(0.9507) + 0.00388*B(0.6409) + 0.3645*C(0.6025) | tau_mean 0.6237
+Traceback (most recent call last):
+  File "E:\program\CAFE\cafe_probe4.py", line 294, in <module>
+    main()
+  File "E:\program\CAFE\cafe_probe4.py", line 279, in main
+    adjust(lambda i, s, g: s <= np.median(s), "adj-control-low", store,
+  File "E:\program\CAFE\cafe_probe4.py", line 267, in adjust
+    Zf = np.concatenate([Zs[i][fit_mask_fn(i, S[i], Gs[i])]
+                         ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: boolean index did not match indexed array along dimension 1; dimension is 4 but corresponding boolean dimension is 1
+EXITCODE=1 

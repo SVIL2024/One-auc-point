@@ -1,0 +1,17 @@
+E:\program/DSANet/src\clip\clip.py:6: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging
+  WARN missing 14 keys e.g. ['temporal.resblocks.1.attn.in_proj_weight', 'temporal.resblocks.1.attn.in_proj_bias', 'temporal.resblocks.1.attn.out_proj.weight']
+[xd_base_s789] theta1 0.5321 (A 0.5182 B 0.5274 B|z 0.5251 C 0.5479)
+[xd_base_s789] theta2 0.5321 (A 0.5182 B 0.5274 B|z 0.5251 C 0.5479) | within_mean2 0.5044 corr 0.130 | 25s
+  WARN missing 14 keys e.g. ['temporal.resblocks.1.attn.in_proj_weight', 'temporal.resblocks.1.attn.in_proj_bias', 'temporal.resblocks.1.attn.out_proj.weight']
+[xd_base_s555] theta1 0.5319 (A 0.5067 B 0.5017 B|z 0.5034 C 0.5604)
+[xd_base_s555] theta2 0.5319 (A 0.5067 B 0.5017 B|z 0.5034 C 0.5604) | within_mean2 0.4937 corr 0.221 | 25s
+  WARN missing 15 keys e.g. ['motion_beta', 'temporal.resblocks.1.attn.in_proj_weight', 'temporal.resblocks.1.attn.in_proj_bias']
+[xd_base_s234] theta1 0.5260 (A 0.4966 B 0.4843 B|z 0.4779 C 0.5594)
+[xd_base_s234] theta2 0.5260 (A 0.4966 B 0.4843 B|z 0.4779 C 0.5594) | within_mean2 0.4650 corr 0.218 | 26s
+  WARN missing 14 keys e.g. ['temporal.resblocks.1.attn.in_proj_weight', 'temporal.resblocks.1.attn.in_proj_bias', 'temporal.resblocks.1.attn.out_proj.weight']
+[xd_motion3_s789] theta1 0.5194 (A 0.4957 B 0.5190 B|z 0.5112 C 0.5462)
+[xd_motion3_s789] theta2 0.5194 (A 0.4957 B 0.5190 B|z 0.5112 C 0.5462) | within_mean2 0.4922 corr -0.053 | 25s
+MISS E:/program/DSANet\model\xd_res_s234.pth
+saved E:\program\CAFE\out\dump_scores_xd.json
+ALLDONE 
