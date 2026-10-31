@@ -1,0 +1,38 @@
+[
+ {
+  "dataset": "UCF-Crime",
+  "n_videos": 290,
+  "frames": 69368,
+  "pos": 5260,
+  "neg_normal_video": 40494,
+  "neg_anomalous_video": 23614,
+  "w": 0.6316528358395208,
+  "lam": 0.010534480254511647,
+  "same_video_pairs": 1308484.0,
+  "hard_pairs": 124209640.0,
+  "n_anom_videos": 140,
+  "median_pos_per_video": 17.0,
+  "median_neg_per_video": 98.5,
+  "frac_videos_both": 1.0,
+  "rate_tau_to_theta": 0.003880345927653928,
+  "rate_theta_to_tau": 257.7089823031845
+ },
+ {
+  "dataset": "XD-Violence",
+  "n_videos": 800,
+  "frames": 145706,
+  "pos": 64050,
+  "neg_normal_video": 43267,
+  "neg_anomalous_video": 38389,
+  "w": 0.5298692074066816,
+  "lam": -0.0034360731187588283,
+  "same_video_pairs": 6309152.0,
+  "hard_pairs": -1836151846.0,
+  "n_anom_videos": 488,
+  "median_pos_per_video": 90.0,
+  "median_neg_per_video": 0.0,
+  "frac_videos_both": 0.4487704918032787,
+  "rate_tau_to_theta": -0.0016154037787306833,
+  "rate_theta_to_tau": -619.0402753581263
+ }
+]
