@@ -1,0 +1,28 @@
+# model checkpoints and dataset features are never committed
+*.pth
+*.pt
+*.ckpt
+*.tar
+*.zip
+*.7z
+
+# large training caches (3.3 GB for UCF-Crime alone)
+cache_*.npz
+
+# by-products of the analysis pipeline
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+out/
+_rel/
+_rel_ex/
+
+# paper build artefacts (the PDF and docx ARE committed; these are not)
+paper/build/
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.bbl
+paper/*.blg
+paper/*.spl
+paper/*.prerebuild

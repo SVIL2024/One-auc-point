@@ -1,0 +1,15 @@
+# CPU path (analysis from the released scores) -- this is all you need to
+# reproduce every table in the paper.
+numpy>=1.21
+
+# GPU path (only if you want to re-extract scores from the checkpoints)
+# torch>=2.1
+# torchvision
+# pandas
+# tqdm
+# scipy            # only cafe_tloc.py / cafe_official12.py use it for AUC/AP
+# scikit-learn     # the original pipeline used roc_auc_score; cafe/reproduce_from_scores.py
+#                  # reimplements it in numpy so the CPU path does not need it
+
+# paper build (optional)
+# pandoc, a LaTeX distribution, and the tools in paper/tools/

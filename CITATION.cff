@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this code or the reported decomposition, please cite the manuscript below."
+title: "CAFE: Decomposing the Reported Number in Weakly Supervised Video Anomaly Detection"
+abstract: >-
+  Code, per-frame scores, ground truth and manuscript for a measurement study of
+  the pooled AUC used to evaluate weakly supervised video anomaly detectors.
+  The reported number is decomposed exactly into a cross-video block, a
+  within-video block and a residual block; the within-video block is shown to be
+  mediated rather than confounded by motion, and is shown not to predict any
+  independent localization metric.
+authors:
+  - family-names: "Anonymous"
+    given-names: "Anonymous"
+version: "1.0.0"
+date-released: "2026-10-31"
+license: MIT
+repository-code: "https://github.com/CHANGE-ME/CAFE"
+keywords:
+  - video anomaly detection
+  - evaluation methodology
+  - causal inference
+  - weak supervision
+  - AUC decomposition
+preferred-citation:
+  type: article
+  title: "What Does One AUC Point Buy? Localization Ability in Weakly-Supervised Video Anomaly Detection"
+  authors:
+    - family-names: "Anonymous"
+      given-names: "Anonymous"
+  year: 2026
+  note: "Manuscript under review"
